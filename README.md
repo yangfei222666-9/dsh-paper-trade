@@ -1,5 +1,9 @@
 # dsh-paper-trade
 
+> **痛点**:想练交易的人直接上真钱,亏掉的是学费。
+> **解法**:10 万美元虚拟盘 + 哈希链防篡改账本 + 机器强制纪律(无报价拒单、现金不足拒单),只练一条——下单前写理由、成交后留证据。
+> **证据**:14 个测试全绿,CI 绿,awesome-dsh 已收录,零第三方依赖。
+
 A **zero-dependency paper-trading CLI** for the DeepSeek Harness ecosystem: a virtual **$100,000** account, real daily stock quotes, and every trade recorded in a **hash-chained, tamper-evident ledger**. It exists to train one discipline — *write the reason before the order, leave the evidence after the fill* — without ever touching real money.
 
 MIT · pure Python standard library · by Taiji Whale (太极鲸)
