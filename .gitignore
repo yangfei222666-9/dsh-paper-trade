@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+
+# Local env files may hold API keys; keep only the example template trackable.
+.env
+.env.*
+!.env.example
